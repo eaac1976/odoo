@@ -6,8 +6,8 @@ This project deploys a production-ready Odoo 18 instance using Docker and Docker
 
 Before you begin, **please follow the installation and setup instructions for Docker and Git provided in the [development-tools repository](https://github.com/eaac1976/development-tools)**:
 
-- [Docker Installation Guide](https://github.com/eaac1976/development-tools/blob/main/docker/README.md)
-- [Git Installation & Configuration Guide](https://github.com/eaac1976/development-tools/blob/main/git/README.md)
+- [Docker Installation Guide](https://github.com/eaac1976/development-tools/blob/main/README_docker_setup_guide.md)
+- [Git Installation & Configuration Guide](https://github.com/eaac1976/development-tools/blob/main/README_git_setup_guide.md)
 
 > **Tip:** You can reference documents from another repository by using full URLs, as shown above. For example:
 > ```
