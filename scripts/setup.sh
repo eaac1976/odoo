@@ -143,7 +143,7 @@ version: '3.8'
 
 services:
   odoo:
-    image: odoo:19.0
+    image: odoo:19.3
     depends_on:
       - db
     env_file: .env
