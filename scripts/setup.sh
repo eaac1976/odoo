@@ -3,7 +3,7 @@
 # needed to run an Odoo 18 environment with Docker and a self-signed SSL certificate.
 
 # --- Welcome Message ---
-echo "🚀 Creating the production environment for Odoo 18 with Docker..."
+echo "🚀 Creating the production environment for Odoo 19 with Docker..."
 echo "--------------------------------------------------------"
 
 # --- 1. Create directory structure ---
@@ -143,7 +143,7 @@ version: '3.8'
 
 services:
   odoo:
-    image: odoo:18.0
+    image: odoo:19.0
     depends_on:
       - db
     env_file: .env
@@ -156,7 +156,7 @@ services:
       - odoo-network
 
   db:
-    image: postgres:16
+    image: postgres:18.4
     env_file: .env
     restart: always
     volumes:
