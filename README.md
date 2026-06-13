@@ -1,6 +1,6 @@
 # Odoo 19 Installation with Docker and Nginx (Self-Signed SSL)
 
-This project deploys a production-ready Odoo 18 instance using Docker and Docker Compose. The setup includes a container for Odoo, a PostgreSQL database, and an Nginx reverse proxy to securely handle web traffic over HTTPS using a self-signed certificate.
+This project deploys a production-ready Odoo 19 instance using Docker and Docker Compose. The setup includes a container for Odoo, a PostgreSQL database, and an Nginx reverse proxy to securely handle web traffic over HTTPS using a self-signed certificate.
 
 ## 📋 Prerequisites
 
